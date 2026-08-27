@@ -38,13 +38,4 @@ Before releasing the repository with the paper, complete `model_configuration.md
 
 If the prompt templates in `prompts.md` were reconstructed after the experiment, describe them as representative templates. Do not claim that they are verbatim prompts unless they match the prompts recorded during the experiments.
 
-## Suggested paper statement
-
-> The prompt templates, output schemas, annotation instructions, and reproducibility materials are available in the accompanying repository: https://github.com/YOUR-USERNAME/sotho-tswana-sentiment-lexicons.
-
-Replace `YOUR-USERNAME` after creating the GitHub repository.
-
-## Licence
-
-The code, schemas, and prompt templates in this repository are released under the MIT License. Third-party corpora, annotations, and model outputs remain subject to their original licences and terms of use.
 
