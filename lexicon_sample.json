@@ -1,0 +1,42 @@
+[
+  {
+    "word": "thabo",
+    "language": "Sepedi",
+    "english_gloss": "happiness",
+    "polarity": "positive",
+    "intensity": 4,
+    "contextual_consistency": 0.8,
+    "human_validation_status": "validated",
+    "annotator_agreement": 1.0,
+    "generation_model": null,
+    "generation_stage": "illustrative_example",
+    "batch_id": "example-001"
+  },
+  {
+    "word": "boitumelo",
+    "language": "Setswana",
+    "english_gloss": "joy",
+    "polarity": "positive",
+    "intensity": 4,
+    "contextual_consistency": 0.8,
+    "human_validation_status": "validated",
+    "annotator_agreement": 1.0,
+    "generation_model": null,
+    "generation_stage": "illustrative_example",
+    "batch_id": "example-002"
+  },
+  {
+    "word": "bohloko",
+    "language": "Sesotho",
+    "english_gloss": "pain",
+    "polarity": "negative",
+    "intensity": 4,
+    "contextual_consistency": 0.8,
+    "human_validation_status": "validated",
+    "annotator_agreement": 1.0,
+    "generation_model": null,
+    "generation_stage": "illustrative_example",
+    "batch_id": "example-003"
+  }
+]
+

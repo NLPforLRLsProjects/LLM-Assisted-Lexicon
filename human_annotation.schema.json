@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/YOUR-USERNAME/sotho-tswana-sentiment-lexicons/schemas/human_annotation.schema.json",
+  "title": "Human Lexicon Annotation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "annotator_id",
+    "valid_word",
+    "spelling_correct",
+    "gloss_accuracy",
+    "polarity",
+    "intensity",
+    "decision"
+  ],
+  "properties": {
+    "record_id": {"type": "string", "minLength": 1},
+    "annotator_id": {"type": "string", "minLength": 1},
+    "valid_word": {"enum": ["yes", "no", "uncertain"]},
+    "spelling_correct": {"enum": ["yes", "no"]},
+    "gloss_accuracy": {"enum": ["yes", "no", "partially"]},
+    "polarity": {
+      "enum": ["positive", "negative", "neutral", "context_dependent"]
+    },
+    "intensity": {"type": "integer", "minimum": 1, "maximum": 5},
+    "alternative_sense_changes_polarity": {"enum": ["yes", "no"]},
+    "decision": {"enum": ["retain", "revise", "reject"]},
+    "reason": {"type": "string"},
+    "correction": {"type": ["string", "null"]}
+  }
+}
+

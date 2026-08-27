@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite the associated paper."
+title: "LLM-Assisted Sentiment Lexicons for Sepedi, Sesotho, and Setswana"
+type: software
+authors:
+  - family-names: "Mabokela"
+    given-names: "Koena Ronny"
+version: 1.0.0
+date-released: 2026-08-27
+license: MIT
+repository-code: "https://github.com/YOUR-USERNAME/sotho-tswana-sentiment-lexicons"
+
