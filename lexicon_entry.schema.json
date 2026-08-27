@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/YOUR-USERNAME/sotho-tswana-sentiment-lexicons/schemas/lexicon_entry.schema.json",
+  "$id": "https://github.com/NLPforLRLsProjects/LLM-Assisted-Lexicon/lexicon_entry.schema.json",
   "title": "Validated Sentiment Lexicon Entry",
   "type": "object",
   "additionalProperties": false,
