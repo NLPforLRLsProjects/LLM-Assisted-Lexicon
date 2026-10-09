@@ -1,41 +1,31 @@
-# LLM-Assisted Sentiment Lexicons for Sepedi, Sesotho, and Setswana
+# PAAISSA Supplementary Evidence — Sesotho and Setswana
 
-This repository contains the reproducibility materials accompanying the paper on an LLM-assisted, human-centred framework for constructing sentiment lexicons for Sepedi, Sesotho, and Setswana.
+This package organises the exact uploaded files for six model/language combinations. Original files are preserved unchanged. Markdown reports are readable conversions from JSONL records, not screenshots or independently verified results.
 
-The framework comprises five stages:
+| Provider | Language | Original evidence | Notes |
+|---|---|---|---|
+| OpenAI GPT-4.1 | Setswana | Markdown raw response | Prompt ID CG-01; one example batch |
+| OpenAI GPT-4.1 | Sesotho | Markdown raw response | Prompt ID CG-01; one example batch |
+| Gemini 3.1 Pro Preview | Setswana | JSONL API logs | Five records, raw responses included |
+| Gemini 3.1 Pro Preview | Sesotho | JSONL API logs | Five records, raw responses included |
+| Claude Opus 4.5 | Setswana | JSONL API logs | Six records, raw responses included |
+| Claude Opus 4.5 | Sesotho | Candidates CSV only | Original raw requests/responses **not included** |
 
-1. Data preparation
-2. Multi-model LLM candidate generation
-3. Automated candidate refinement
-4. Native-speaker validation and human-feedback refinement
-5. Held-out evaluation
+## Methodological cautions
 
-The final lexicons reported in the paper contain 2,847 Sepedi entries, 2,634 Sesotho entries, and 2,912 Setswana entries.
+- All entries must be treated as model-generated candidates pending human validation; these files do not establish linguistic correctness.
+- Do not present the Claude Sesotho CSV as a raw API response or claim the exact prompts are recorded in it.
+- Gemini response fields may use `polarity` rather than `preliminary_polarity`; normalise in downstream processing and document the mapping.
+- This collection is additional evidence; it does not constitute evidence of complete full-scale experiments or of the final lexicon sizes/metrics cited in the manuscript.
+- The OpenAI files are examples from one batch per language, not full execution histories.
+- Do not include API tokens or personal credentials in public GitHub uploads.
+- Llama is intentionally absent because it was not used in the reported experiment.
 
-## Repository contents
+## Suggested citation text for the manuscript
 
-| Path | Description |
-|---|---|
-| `prompts.md` | Complete prompt templates for candidate generation, scoring, contextual analysis, and refinement |
-| `model_configuration.md` | Reporting table for exact models, access dates, decoding settings, and repetitions |
-| `annotation_guidelines.md` | Instructions used by the three annotators |
-| `data/README.md` | Data statement and required benchmark documentation |
-| `schemas/lexicon_entry.schema.json` | JSON Schema for a final lexicon entry |
-| `schemas/human_annotation.schema.json` | JSON Schema for one annotator judgement |
-| `examples/lexicon_sample.json` | Illustrative records showing the expected output structure |
-| `CITATION.cff` | Citation metadata |
-| `LICENSE` | MIT licence for repository code and templates |
-
-## Evaluation separation
-
-The held-out evaluation resource contains 1,000 manually annotated samples per language. Three annotators assessed the samples. Held-out records must not be included in prompt development, candidate generation, contextual-example generation, candidate refinement, or human-feedback prompts used to construct the lexicons.
-
-The repository does not redistribute source corpora or held-out annotations unless their licences and ethics conditions explicitly permit redistribution. See `data/README.md`.
-
-## Reproducibility requirements
-
-Before releasing the repository with the paper, complete `model_configuration.md` using the original API logs. Report the exact model identifiers rather than product-family names. Also record access dates, temperature, maximum output tokens, sampling parameters, number of runs, batching rules, and output-filtering rules.
-
-If the prompt templates in `prompts.md` were reconstructed after the experiment, describe them as representative templates. Do not claim that they are verbatim prompts unless they match the prompts recorded during the experiments.
+Representative Sepedi outputs are shown in Figure 2. Additional model-language evidence for Sesotho and Setswana, including archived prompts and model responses where recorded, is provided in the accompanying repository. The Claude Sesotho materials presently contain candidate-level exports only.
 
 
+## Update: Claude Sesotho successful API evidence (9 October 2026)
+
+The file `claude/sesotho/claude_sot_evidence_successful.jsonl` contains 5 successful Claude Opus 4.5 batches and 100 raw generated entries, including prompts, responses, timestamps and API request metadata. A Markdown rendering is included. The earlier failed API attempts are retained separately for transparency. These raw candidate entries require independent linguistic validation and must not be presented as verified lexicon entries.
