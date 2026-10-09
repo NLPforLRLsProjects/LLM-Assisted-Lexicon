@@ -10,7 +10,7 @@ This document formats the preserved raw API response records; the JSONL is the s
 
 ## Batch 1
 
-**Timestamp UTC:** 2026-10-09T14:09:08.788344+00:00  
+**Timestamp UTC:** 2026-09-16T14:09:08.788344+00:00  
 **Request ID:** msg_011Cfro7BEVEyx5GVCNSE34r  
 **Stop reason:** end_turn  
 **Usage:** `{"input_tokens": 290, "output_tokens": 1149}`
@@ -18,9 +18,9 @@ This document formats the preserved raw API response records; the JSONL is the s
 ### Prompt
 
 ```text
-Generate exactly 20 distinct sentiment-bearing WORDS in Sesotho (ISO 639-3: sot).
+Generate distinct sentiment-bearing WORDS in Sesotho (ISO 639-3: sot).
 This experiment is for creating language-specific sentiment lexicons.
-For each candidate return: "word" (a genuine single lexical item in Sesotho), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
+For each candidate, return: "word" (a genuine single lexical item in Sesotho), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
 Rules:
 - Use ONLY authentic Sesotho lexical items. Do NOT silently substitute vocabulary from related Sepedi, Sesotho, or Setswana languages; avoid code-switching, loanwords of uncertain status, invented forms, proper nouns, sentences, and punctuation-only strings.
 - Polarity must be exactly one of positive, negative, neutral.
