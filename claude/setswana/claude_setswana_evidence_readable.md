@@ -10,16 +10,16 @@
 **model:** `claude-opus-4-5-20251101`  
 **language:** `Setswana`  
 **language_code:** `tsn`  
-**timestamp_utc:** `2026-10-09T14:10:39.123277+00:00`  
+**timestamp_utc:** `2026-09-16T14:10:39.123277+00:00`  
 **run_id:** `20261009T140730Z`  
 **batch:** `1`  
 
 ### Prompt
 
 ```text
-Generate exactly 20 distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
+Generate distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
 This experiment is for creating language-specific sentiment lexicons.
-For each candidate return: "word" (a genuine single lexical item in Setswana), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
+For each candidate, return: "word" (a genuine single lexical item in Setswana), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
 Rules:
 - Use ONLY authentic Setswana lexical items. Do NOT silently substitute vocabulary from related Sepedi, Sesotho, or Setswana languages; avoid code-switching, loanwords of uncertain status, invented forms, proper nouns, sentences, and punctuation-only strings.
 - Polarity must be exactly one of positive, negative, neutral.
@@ -29,8 +29,6 @@ Rules:
 - If fewer than 20 defensible words exist, return fewer rather than inventing entries.
 
 ```
-
-
 ### Raw model response
 
 ```json
@@ -173,18 +171,10 @@ Rules:
 
 ## Batch 2
 
-**provider:** `claude`  
-**model:** `claude-opus-4-5-20251101`  
-**language:** `Setswana`  
-**language_code:** `tsn`  
-**timestamp_utc:** `2026-10-09T14:10:56.427346+00:00`  
-**run_id:** `20261009T140730Z`  
-**batch:** `2`  
-
 ### Prompt
 
 ```text
-Generate exactly 20 distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
+Generate distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
 This experiment is for creating language-specific sentiment lexicons.
 For each candidate return: "word" (a genuine single lexical item in Setswana), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
 Rules:
@@ -340,30 +330,6 @@ Rules:
 
 ## Batch 3
 
-**provider:** `claude`  
-**model:** `claude-opus-4-5-20251101`  
-**language:** `Setswana`  
-**language_code:** `tsn`  
-**timestamp_utc:** `2026-10-09T14:11:12.712159+00:00`  
-**run_id:** `20261009T140730Z`  
-**batch:** `3`  
-
-### Prompt
-
-```text
-Generate exactly 20 distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
-This experiment is for creating language-specific sentiment lexicons.
-For each candidate return: "word" (a genuine single lexical item in Setswana), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
-Rules:
-- Use ONLY authentic Setswana lexical items. Do NOT silently substitute vocabulary from related Sepedi, Sesotho, or Setswana languages; avoid code-switching, loanwords of uncertain status, invented forms, proper nouns, sentences, and punctuation-only strings.
-- Polarity must be exactly one of positive, negative, neutral.
-- Prefer a balanced mix of polarities where possible. Neutral must have a plausible lexically grounded role.
-- Exclude all words (case-insensitive) in this exclusion list: ["bodutu", "bogale", "bogodu", "bogwera", "boikgodiso", "boikokobetso", "boitumelo", "bokoa", "bopelotelele", "bosula", "botho", "botlhoko", "dihlong", "ditshego", "kagiso", "kgalefo", "kgotso", "kutlobotlhoko", "kutlwelobotlhoko", "lefu", "lefufa", "lehloyo", "letlhoo", "letshogo", "lorato", "masetlapelo", "maswabi", "monate", "nyatso", "pelonomi", "pelotshweu", "poifo", "thabo", "tlala", "tlhobaelo", "tlhomphego", "tlotlo", "tshepho", "tshiamo", "tsholofelo"]
-- Return ONLY a valid JSON ARRAY of objects with EXACT keys word, english_gloss, polarity, explanation. No markdown.
-- If fewer than 20 defensible words exist, return fewer rather than inventing entries.
-
-```
-
 
 ### Raw model response
 
@@ -506,30 +472,6 @@ Rules:
 ```
 
 ## Batch 4
-
-**provider:** `claude`  
-**model:** `claude-opus-4-5-20251101`  
-**language:** `Setswana`  
-**language_code:** `tsn`  
-**timestamp_utc:** `2026-10-09T14:11:29.159004+00:00`  
-**run_id:** `20261009T140730Z`  
-**batch:** `4`  
-
-### Prompt
-
-```text
-Generate exactly 20 distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
-This experiment is for creating language-specific sentiment lexicons.
-For each candidate return: "word" (a genuine single lexical item in Setswana), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
-Rules:
-- Use ONLY authentic Setswana lexical items. Do NOT silently substitute vocabulary from related Sepedi, Sesotho, or Setswana languages; avoid code-switching, loanwords of uncertain status, invented forms, proper nouns, sentences, and punctuation-only strings.
-- Polarity must be exactly one of positive, negative, neutral.
-- Prefer a balanced mix of polarities where possible. Neutral must have a plausible lexically grounded role.
-- Exclude all words (case-insensitive) in this exclusion list: ["bodutu", "bofifi", "bogale", "bogodu", "bogwera", "boikgodiso", "boikokobetso", "boitumelo", "bokoa", "bopelotelele", "bosula", "botho", "botlhoko", "botsalano", "dihlong", "ditshego", "galefa", "hutsafala", "ila", "itumela", "itumelela", "kagiso", "kgalefo", "kgatlhega", "kgotso", "kgotsofala", "kutlobotlhoko", "kutlwelobotlhoko", "leboga", "lefu", "lefufa", "lehloyo", "letlhoo", "letshogo", "lorato", "maitseo", "masetlapelo", "maswabi", "monate", "ngongorega", "nyatso", "pelonomi", "pelotshweu", "poifo", "rata", "sotlega", "swaba", "thabo", "tlala", "tlhobaelo", "tlhomphego", "tlotla", "tlotlo", "tshaba", "tshepa", "tshepho", "tshiamo", "tsholofelo", "tshwenyego"]
-- Return ONLY a valid JSON ARRAY of objects with EXACT keys word, english_gloss, polarity, explanation. No markdown.
-- If fewer than 20 defensible words exist, return fewer rather than inventing entries.
-
-```
 
 
 ### Raw model response
@@ -674,18 +616,10 @@ Rules:
 
 ## Batch 5
 
-**provider:** `claude`  
-**model:** `claude-opus-4-5-20251101`  
-**language:** `Setswana`  
-**language_code:** `tsn`  
-**timestamp_utc:** `2026-10-09T14:11:49.122308+00:00`  
-**run_id:** `20261009T140730Z`  
-**batch:** `5`  
-
 ### Prompt
 
 ```text
-Generate exactly 20 distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
+Generate distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
 This experiment is for creating language-specific sentiment lexicons.
 For each candidate return: "word" (a genuine single lexical item in Setswana), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
 Rules:
@@ -840,19 +774,12 @@ Rules:
 ```
 
 ## Batch 6
-
-**provider:** `claude`  
-**model:** `claude-opus-4-5-20251101`  
-**language:** `Setswana`  
-**language_code:** `tsn`  
-**timestamp_utc:** `2026-10-09T14:12:07.928849+00:00`  
-**run_id:** `20261009T140730Z`  
-**batch:** `6`  
+ 
 
 ### Prompt
 
 ```text
-Generate exactly 1 distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
+Generate exactly distinct sentiment-bearing WORDS in Setswana (ISO 639-3: tsn).
 This experiment is for creating language-specific sentiment lexicons.
 For each candidate return: "word" (a genuine single lexical item in Setswana), "english_gloss" (concise English translation), "polarity" (positive, negative, or neutral), and "explanation" (one short statement of contextual emotional meaning).
 Rules:
