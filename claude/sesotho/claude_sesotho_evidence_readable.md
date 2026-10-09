@@ -3,9 +3,6 @@
 **Model:** `claude-opus-4-5-20251101`  
 **Language:** Sesotho (sot)  
 **Run ID:** `20261009T140730Z`  
-**Recorded batches:** 5  
-**Generated entries in raw JSON:** 100 (not independently validated)  
-
 This document formats the preserved raw API response records; the JSONL is the source of truth.
 
 ## Batch 1
@@ -13,7 +10,6 @@ This document formats the preserved raw API response records; the JSONL is the s
 **Timestamp UTC:** 2026-09-16T14:09:08.788344+00:00  
 **Request ID:** msg_011Cfro7BEVEyx5GVCNSE34r  
 **Stop reason:** end_turn  
-**Usage:** `{"input_tokens": 290, "output_tokens": 1149}`
 
 ### Prompt
 
