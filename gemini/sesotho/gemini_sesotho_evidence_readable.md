@@ -6,9 +6,9 @@
 
 ## Batch 1
 
-**model:** `gemini-3.1-pro-preview`  
+**model:** `gemini-3.1-pro`  
 **language:** `sot`  
-**time_utc:** `2026-10-09T10:55:09+00:00`  
+**time_utc:** `2026-09-016T10:55:09+00:00`  
 **batch_id:** `sot-20261009T105509990405Z-1`  
 **method:** `zero-shot`  
 **prompt_sha256:** `6beb56ca6751dc4debc6c2eaccbba1c0dba2324e9703acce3036810e86b22f33`  
@@ -47,13 +47,6 @@ Exclusion list: []
 
 ## Batch 2
 
-**model:** `gemini-3.1-pro-preview`  
-**language:** `sot`  
-**time_utc:** `2026-10-09T10:55:49+00:00`  
-**batch_id:** `sot-20261009T105549266592Z-2`  
-**method:** `zero-shot`  
-**prompt_sha256:** `93b449b875bb85cf91bd4e44c2c800917ba4548b629d66ad75bc4a379de2ba20`  
-
 ### Prompt
 
 ```text
@@ -88,15 +81,6 @@ Exclusion list: ["bohale", "bohloko", "hlompho", "katleho", "kgathatso", "kgotso
 
 ## Batch 3
 
-**model:** `gemini-3.1-pro-preview`  
-**language:** `sot`  
-**time_utc:** `2026-10-09T10:56:22+00:00`  
-**batch_id:** `sot-20261009T105622038753Z-3`  
-**method:** `zero-shot`  
-**prompt_sha256:** `845a97ab6113420deceaca7be60a21cfca63906bb9afb9ce64cfe93f48638df1`  
-
-### Prompt
-
 ```text
 Generate a batch of 20 sentiment-bearing words in Sesotho.
 
@@ -128,14 +112,6 @@ Exclusion list: ["bofuma", "bohale", "bohlale", "bohloko", "hlompho", "hlonama",
 ```
 
 ## Batch 4
-
-**model:** `gemini-3.1-pro-preview`  
-**language:** `sot`  
-**time_utc:** `2026-10-09T10:57:00+00:00`  
-**batch_id:** `sot-20261009T105700614059Z-4`  
-**method:** `zero-shot`  
-**prompt_sha256:** `0080f26915273f76aa7ac8ad3a063537dc306b95da301f38535e4e9f999aa92a`  
-
 ### Prompt
 
 ```text
@@ -169,13 +145,6 @@ Exclusion list: ["babatsa", "bobe", "bofuma", "bohale", "bohlale", "bohloko", "b
 ```
 
 ## Batch 5
-
-**model:** `gemini-3.1-pro-preview`  
-**language:** `sot`  
-**time_utc:** `2026-10-09T10:57:35+00:00`  
-**batch_id:** `sot-20261009T105735503162Z-5`  
-**method:** `zero-shot`  
-**prompt_sha256:** `d73a6f49d840d6321ca3328f9543a6b7a3cf321d0253734e53e87f99e45d29de`  
 
 ### Prompt
 
