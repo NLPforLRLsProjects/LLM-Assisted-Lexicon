@@ -45,7 +45,7 @@ Run candidate generation in documented batches. Supply previously accepted and g
 **Provider:** OpenAI  
 **Returned model:** gpt-4.1-2025-04-14  
 **Prompt ID:** CG-01  
-**Access time:** 2026-09- 16:17:27 UTC  
+**Access time:** 2026-09-16:17:27 UTC  
 **Temperature:** 0.2  
 **Exclusion list:** []  
 
