@@ -8,7 +8,7 @@
     "contextual_consistency": 0.8,
     "human_validation_status": "validated",
     "annotator_agreement": 1.0,
-    "generation_model": gpt-4,
+    "generation_model": gpt-4.1,
     "generation_stage": "illustrative_example",
     "batch_id": "example-001"
   },
@@ -21,7 +21,7 @@
     "contextual_consistency": 0.8,
     "human_validation_status": "validated",
     "annotator_agreement": 1.0,
-    "generation_model": gpt-4,
+    "generation_model": gpt-4.1,
     "generation_stage": "illustrative_example",
     "batch_id": "example-002"
   },
@@ -34,7 +34,7 @@
     "contextual_consistency": 0.8,
     "human_validation_status": "validated",
     "annotator_agreement": 1.0,
-    "generation_model": gpt-4,
+    "generation_model": gpt-4.1,
     "generation_stage": "illustrative_example",
     "batch_id": "example-003"
   }
