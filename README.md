@@ -1,4 +1,5 @@
-# PAAISSA Supplementary Evidence — Sesotho and Setswana
+# 
+PA-AISS 2026 Supplementary Evidence — Sesotho and Setswana
 
 This package organises the exact uploaded files for six model/language combinations. Original files are preserved unchanged. Markdown reports are readable conversions from JSONL records, not screenshots or independently verified results.
 
