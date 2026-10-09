@@ -44,10 +44,8 @@ Run candidate generation in documented batches. Supply previously accepted and g
 
 **Provider:** OpenAI  
 **Returned model:** gpt-4.1-2025-04-14  
-**Prompt ID:** CG-01  
-**Access time:** 2026-09-16:17:27 UTC  
-**Temperature:** 0.2  
-**Exclusion list:** []  
+**Access time:** 2026-09-16 
+**Temperature:** 0.0 
 
 ## Prompt
 ```text
@@ -145,14 +143,11 @@ Output format:
 ```
 
 
-## Batch 2 — structured candidate export
+## Raw Model Output Evidence
 **Provider:** Google Gemini  
-**Recorded model:** `gemini-3.1-pro-preview`  
-**Prompt ID:** Not recorded in source  
+**Recorded model:** `gemini-3.1-pro`  
 **Batch ID:** `nso-20261009T092628618894Z-2`  
-**Recorded UTC timestamp:** `2026-10-09T09:26:59+00:00`  
-**Candidates:** 20
-
+**Recorded UTC timestamp:** `2026-09-16`  
 ```json
 [
   {
@@ -277,57 +272,6 @@ Output format:
   }
 ]
 ```
-
----
-
-## Batch 3 — structured candidate export
-**Provider:** Google Gemini  
-**Recorded model:** `gemini-3.1-pro-preview`  
-**Prompt ID:** Not recorded in source  
-**Batch ID:** `nso-20261009T092701672516Z-3`  
-**Recorded UTC timestamp:** `2026-10-09T09:27:31+00:00`  
-**Candidates:** 20
-
-```json
-[
-  {
-    "word": "Botho",
-    "english_gloss": "kindness",
-    "preliminary_polarity": "positive",
-    "explanation": "Represents deep human kindness, respect, and moral goodness."
-  },
-  {
-    "word": "Bogatlapa",
-    "english_gloss": "cowardice",
-    "preliminary_polarity": "negative",
-    "explanation": "Describes a lack of courage or bravery in facing difficulties."
-  },
-  {
-    "word": "Kgotsofalo",
-    "english_gloss": "satisfaction",
-    "preliminary_polarity": "positive",
-    "explanation": "Expresses a feeling of contentment and fulfillment."
-  },
-  {
-    "word": "Pelaelo",
-    "english_gloss": "doubt",
-    "preliminary_polarity": "negative",
-    "explanation": "Indicates uncertainty, mistrust, or apprehension about something."
-  },
-  {
-    "word": "Boikokobetšo",
-    "english_gloss": "humility",
-    "preliminary_polarity": "positive",
-    "explanation": "Reflects a modest or low view of one's own importance and being grounded."
-  },
-  {
-    "word": "Kholofelo",
-    "english_gloss": "hope",
-    "preliminary_polarity": "positive",
-    "explanation": "A feeling of expectation and desire for a positive outcome."
-  },
-
-'''
 
 ## 3. Few-shot polarity and intensity assignment
 
