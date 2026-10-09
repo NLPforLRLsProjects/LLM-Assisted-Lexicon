@@ -144,6 +144,191 @@ Output format:
 ]
 ```
 
+
+## Batch 2 — structured candidate export
+**Provider:** Google Gemini  
+**Recorded model:** `gemini-3.1-pro-preview`  
+**Prompt ID:** Not recorded in source  
+**Batch ID:** `nso-20261009T092628618894Z-2`  
+**Recorded UTC timestamp:** `2026-10-09T09:26:59+00:00`  
+**Candidates:** 20
+
+```json
+[
+  {
+    "word": "thaba",
+    "english_gloss": "rejoice",
+    "preliminary_polarity": "positive",
+    "explanation": "Expresses the feeling of joy or happiness."
+  },
+  {
+    "word": "maaka",
+    "english_gloss": "lies",
+    "preliminary_polarity": "negative",
+    "explanation": "Associated with deceit and dishonesty."
+  },
+  {
+    "word": "bohlale",
+    "english_gloss": "wisdom",
+    "preliminary_polarity": "positive",
+    "explanation": "Represents intelligence, cleverness, and good judgment."
+  },
+  {
+    "word": "sebete",
+    "english_gloss": "courage",
+    "preliminary_polarity": "positive",
+    "explanation": "Denotes bravery and fearlessness in facing difficulties."
+  },
+  {
+    "word": "lefufa",
+    "english_gloss": "jealousy",
+    "preliminary_polarity": "negative",
+    "explanation": "A negative emotion of envy towards others."
+  },
+  {
+    "word": "letšhogo",
+    "english_gloss": "fear",
+    "preliminary_polarity": "negative",
+    "explanation": "Represents panic, fright, or deep anxiety."
+  },
+  {
+    "word": "kgalalelo",
+    "english_gloss": "glory",
+    "preliminary_polarity": "positive",
+    "explanation": "Associated with splendor, majesty, and high honor."
+  },
+  {
+    "word": "mahlomola",
+    "english_gloss": "sorrow",
+    "preliminary_polarity": "negative",
+    "explanation": "Conveys deep sadness, grief, or distress."
+  },
+  {
+    "word": "kotsi",
+    "english_gloss": "danger",
+    "preliminary_polarity": "negative",
+    "explanation": "Indicates peril, harm, or an unfortunate accident."
+  },
+  {
+    "word": "bofokodi",
+    "english_gloss": "weakness",
+    "preliminary_polarity": "negative",
+    "explanation": "Refers to a lack of strength or a vulnerability."
+  },
+  {
+    "word": "tšhireletšo",
+    "english_gloss": "protection",
+    "preliminary_polarity": "positive",
+    "explanation": "Provides a sense of safety and security."
+  },
+  {
+    "word": "tshegofatšo",
+    "english_gloss": "blessing",
+    "preliminary_polarity": "positive",
+    "explanation": "Brings feelings of grace, favor, and divine goodwill."
+  },
+  {
+    "word": "kgethollo",
+    "english_gloss": "discrimination",
+    "preliminary_polarity": "negative",
+    "explanation": "Associated with prejudice and unfair treatment."
+  },
+  {
+    "word": "lehumo",
+    "english_gloss": "wealth",
+    "preliminary_polarity": "positive",
+    "explanation": "Represents abundance, prosperity, and financial security."
+  },
+  {
+    "word": "boikgantšho",
+    "english_gloss": "arrogance",
+    "preliminary_polarity": "negative",
+    "explanation": "A negative trait of excessive pride and boasting."
+  },
+  {
+    "word": "kgotlelelo",
+    "english_gloss": "patience",
+    "preliminary_polarity": "positive",
+    "explanation": "Shows perseverance and the ability to endure hardship."
+  },
+  {
+    "word": "tshwarelo",
+    "english_gloss": "forgiveness",
+    "preliminary_polarity": "positive",
+    "explanation": "The positive act of pardoning someone and letting go of resentment."
+  },
+  {
+    "word": "bosenyi",
+    "english_gloss": "criminality",
+    "preliminary_polarity": "negative",
+    "explanation": "Relates to crime, destruction, and wrongdoing."
+  },
+  {
+    "word": "nyatšo",
+    "english_gloss": "contempt",
+    "preliminary_polarity": "negative",
+    "explanation": "Expresses disrespect, disdain, or looking down on someone."
+  },
+  {
+    "word": "bopelonomi",
+    "english_gloss": "kindness",
+    "preliminary_polarity": "positive",
+    "explanation": "Reflects a good heart, generosity, and compassion."
+  }
+]
+```
+
+---
+
+## Batch 3 — structured candidate export
+**Provider:** Google Gemini  
+**Recorded model:** `gemini-3.1-pro-preview`  
+**Prompt ID:** Not recorded in source  
+**Batch ID:** `nso-20261009T092701672516Z-3`  
+**Recorded UTC timestamp:** `2026-10-09T09:27:31+00:00`  
+**Candidates:** 20
+
+```json
+[
+  {
+    "word": "Botho",
+    "english_gloss": "kindness",
+    "preliminary_polarity": "positive",
+    "explanation": "Represents deep human kindness, respect, and moral goodness."
+  },
+  {
+    "word": "Bogatlapa",
+    "english_gloss": "cowardice",
+    "preliminary_polarity": "negative",
+    "explanation": "Describes a lack of courage or bravery in facing difficulties."
+  },
+  {
+    "word": "Kgotsofalo",
+    "english_gloss": "satisfaction",
+    "preliminary_polarity": "positive",
+    "explanation": "Expresses a feeling of contentment and fulfillment."
+  },
+  {
+    "word": "Pelaelo",
+    "english_gloss": "doubt",
+    "preliminary_polarity": "negative",
+    "explanation": "Indicates uncertainty, mistrust, or apprehension about something."
+  },
+  {
+    "word": "Boikokobetšo",
+    "english_gloss": "humility",
+    "preliminary_polarity": "positive",
+    "explanation": "Reflects a modest or low view of one's own importance and being grounded."
+  },
+  {
+    "word": "Kholofelo",
+    "english_gloss": "hope",
+    "preliminary_polarity": "positive",
+    "explanation": "A feeling of expectation and desire for a positive outcome."
+  },
+
+'''
+
 ## 3. Few-shot polarity and intensity assignment
 
 ```text
