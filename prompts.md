@@ -39,6 +39,111 @@ Output format:
 
 Run candidate generation in documented batches. Supply previously accepted and generated forms in `<EXCLUSION_LIST>` to reduce duplication.
 
+
+# Raw Model Output Evidence
+
+**Provider:** OpenAI  
+**Returned model:** gpt-4.1-2025-04-14  
+**Prompt ID:** CG-01  
+**Access time:** 2026-09- 16:17:27 UTC  
+**Temperature:** 0.2  
+**Exclusion list:** []  
+
+## Prompt
+```text
+Generate a batch of sentiment-bearing words in Sepedi.
+
+For every candidate, provide:
+1. the word in Sepedi;
+2. a concise English gloss;
+3. a preliminary polarity: positive, negative, or neutral; and
+4. a short explanation of its typical emotional meaning.
+
+Requirements:
+- Include only words genuinely used in Sepedi.
+- Do not invent, transliterate, or silently borrow words from another language.
+- Exclude proper names, punctuation, and complete sentences.
+- Exclude every item in [].
+- Return only a valid JSON array.
+
+Output format:
+[
+  {
+    "word": "<TARGET_LANGUAGE_WORD>",
+    "english_gloss": "<ENGLISH_GLOSS>",
+    "preliminary_polarity": "positive|negative|neutral",
+    "explanation": "<SHORT_EXPLANATION>"
+  }
+]
+```
+
+## Raw model response
+
+```json
+[
+  {
+    "word": "thabo",
+    "english_gloss": "joy",
+    "preliminary_polarity": "positive",
+    "explanation": "Expresses happiness or delight, often used to describe a state of being glad."
+  },
+  {
+    "word": "kwetšo",
+    "english_gloss": "anger",
+    "preliminary_polarity": "negative",
+    "explanation": "Refers to the feeling of being angry or upset."
+  },
+  {
+    "word": "lerato",
+    "english_gloss": "love",
+    "preliminary_polarity": "positive",
+    "explanation": "Denotes affection or deep fondness for someone or something."
+  },
+  {
+    "word": "bohlokwane",
+    "english_gloss": "pain",
+    "preliminary_polarity": "negative",
+    "explanation": "Describes physical or emotional suffering."
+  },
+  {
+    "word": "tšhomišo",
+    "english_gloss": "usefulness",
+    "preliminary_polarity": "positive",
+    "explanation": "Indicates that something is helpful or beneficial."
+  },
+  {
+    "word": "letšhogo",
+    "english_gloss": "fear",
+    "preliminary_polarity": "negative",
+    "explanation": "Represents the feeling of being afraid or scared."
+  },
+  {
+    "word": "kgotso",
+    "english_gloss": "peace",
+    "preliminary_polarity": "positive",
+    "explanation": "Refers to a state of tranquility or calmness."
+  },
+  {
+    "word": "tlhologanyo",
+    "english_gloss": "confusion",
+    "preliminary_polarity": "negative",
+    "explanation": "Describes a state of being puzzled or not understanding."
+  },
+  {
+    "word": "boikokobetšo",
+    "english_gloss": "humility",
+    "preliminary_polarity": "positive",
+    "explanation": "Expresses modesty or lack of arrogance."
+  },
+  {
+    "word": "kgalefo",
+    "english_gloss": "disappointment",
+    "preliminary_polarity": "negative",
+    "explanation": "Describes the feeling of being let down or dissatisfied."
+  }
+]
+```
+
 ## 3. Few-shot polarity and intensity assignment
 
 ```text
