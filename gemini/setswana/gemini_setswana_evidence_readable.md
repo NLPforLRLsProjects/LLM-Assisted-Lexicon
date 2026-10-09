@@ -6,9 +6,9 @@
 
 ## Batch 1
 
-**model:** `gemini-3.1-pro-preview`  
+**model:** `gemini-3.1-pro`  
 **language:** `tsn`  
-**time_utc:** `2026-10-09T10:58:12+00:00`  
+**time_utc:** `2026-09-16T10:58:12+00:00`  
 **batch_id:** `tsn-20261009T105812912058Z-1`  
 **method:** `zero-shot`  
 **prompt_sha256:** `f078677fbaaca182629a0bed0c41dbf5f597b2c1bc9253e348874b9f0d05c917`  
@@ -47,13 +47,6 @@ Exclusion list: []
 
 ## Batch 2
 
-**model:** `gemini-3.1-pro-preview`  
-**language:** `tsn`  
-**time_utc:** `2026-10-09T10:58:39+00:00`  
-**batch_id:** `tsn-20261009T105839556720Z-2`  
-**method:** `zero-shot`  
-**prompt_sha256:** `d031ebd99c0ddcb2b1f83e8768eb9bb8ec6c3109153816d28fdde637a1521183`  
-
 ### Prompt
 
 ```text
@@ -87,13 +80,6 @@ Exclusion list: ["boferefere", "boikgogomoso", "boitumelo", "bopelokgale", "bope
 ```
 
 ## Batch 3
-
-**model:** `gemini-3.1-pro-preview`  
-**language:** `tsn`  
-**time_utc:** `2026-10-09T10:59:10+00:00`  
-**batch_id:** `tsn-20261009T105910994454Z-3`  
-**method:** `zero-shot`  
-**prompt_sha256:** `125e624ab9e7cfbedb51e1f191770fd7369e2c481b808d6371157174ea7d2fd5`  
 
 ### Prompt
 
@@ -129,13 +115,6 @@ Exclusion list: ["boferefere", "boikanyego", "boikgogomoso", "boikobo", "boitume
 
 ## Batch 4
 
-**model:** `gemini-3.1-pro-preview`  
-**language:** `tsn`  
-**time_utc:** `2026-10-09T10:59:45+00:00`  
-**batch_id:** `tsn-20261009T105945554206Z-4`  
-**method:** `zero-shot`  
-**prompt_sha256:** `9b91970dab6bf37447405b4f37d70741958e938c095dbfdbb8ac9fe0d1fe5bbd`  
-
 ### Prompt
 
 ```text
@@ -169,13 +148,6 @@ Exclusion list: ["boboi", "boferefere", "boikanyego", "boikgogomoso", "boikobo",
 ```
 
 ## Batch 5
-
-**model:** `gemini-3.1-pro-preview`  
-**language:** `tsn`  
-**time_utc:** `2026-10-09T11:00:28+00:00`  
-**batch_id:** `tsn-20261009T110028732084Z-5`  
-**method:** `zero-shot`  
-**prompt_sha256:** `39ee6a6587a10dde5d9ca84252f9822436ad2f89f404c9a0159c1a809743dac7`  
 
 ### Prompt
 
