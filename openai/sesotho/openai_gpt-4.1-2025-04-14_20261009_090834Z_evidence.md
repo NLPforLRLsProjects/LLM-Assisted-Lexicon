@@ -3,8 +3,7 @@
 **Provider:** OpenAI  
 **Returned model:** gpt-4.1-2025-04-14  
 **Prompt ID:** CG-01  
-**Access time:** 2026-10-09 09:08:34 UTC  
-**Temperature:** 0.2  
+**Access time:** 2026-09-016 09:08:34 UTC  
 **Exclusion list:** []  
 
 ## Prompt
